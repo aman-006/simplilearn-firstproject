@@ -1,0 +1,134 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.bg-img{
+    background-image: url("https://cdn.logojoy.com/wp-content/uploads/20200702103334/fashion-logo-hero-image-1-1024x604.jpg");
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(255 255 255 / 90%);
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(255 255 255 / 90%);
+}
+#navbarNav{
+    margin-left: 200px;
+}
+.navbar-light .navbar-nav .nav-link :hover {
+    color: rgba(178, 178, 178, 0.9);
+}
+.bg{
+    background-image:url(images/achayra-registration-bg.png);
+    background-repeat: repeat;
+    background-size: 100%;
+    box-sizing: border-box;
+    padding: 40px;
+
+}
+.bdr {
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+    width: 200px;
+    color: rgb(220, 214, 214);
+
+}
+.form-control{
+    background-color: #eee;
+    border-radius: 25px;
+}
+.btn-reg {
+    border-radius: 20px;
+}
+
+.l-bg{
+    background-image: url(images/acharya-login-bg.png);
+    background-size: 100%;
+    background-repeat: repeat;
+    box-sizing: border-box;
+}
+.login{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+  
+
+}
+.u-login{
+    background-color:white;
+    width: 440px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    margin: auto;
+    background-position: center;
+    padding: 25px;
+}
+.u-btn{
+    margin-left: 70px;
+}
+
+.red-bg{
+    background-color: red;
+    height: 200px;
+    position: relative;
+
+}
+.red-bg img{
+   position: absolute;
+   left: 25%;
+   top: 20%;
+   height: 200px;
+}
+.a-map img{
+    border-radius: 20px;
+    border: 3px solid blue ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.logo ul{
+    margin-left: -35px;
+}
+.logo ul li{
+   list-style: none;
+   padding: 10px;
+}
+.logo ul li img{
+    border-radius: 50%;
+    
+}
+
+
+.edit-btn{
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #eee;
+}
+
+
+.container-list{
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    border-radius: 20px;
+    height: 200px;
+}
+
+.Categories{
+    background-color: azure;
+    
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.Categories-item{
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}

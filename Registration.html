@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--title-->
+    <title>user</title>
+
+    <!--bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+
+    <!--stylesheet-->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<bod>
+     <!--navbar-->
+     <section class="bg-dark">
+      <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container p-0">
+            <a class="navbar-brand bg-white p-2" href="#"><img src="https://www.strunkmedia.com/wp-content/uploads/2018/05/bigstock-Print-163213010.png" alt="logo"  width="100px" hight="40px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse ml-5 " id="navbarNav ">
+              <ul class="navbar-nav justify-content-center">
+                <li class="nav-item">
+                  <a class="nav-link active" href="/index.html">HOME</a>
+                </li>
+                  
+                  <li class="nav-item ">
+                    <a class="nav-link " href="/#get_started">
+                      Get started
+                    </a>
+                  </li>
+                  
+                  <li class="nav-item ">
+                    <a class="nav-link " href="#about">
+                      About Us
+                    </a>
+                  </li>
+                  
+                  <li class="nav-item ">
+                    <a class="nav-link " href="#categories">
+                      Categories
+                    </a>
+                  </li>
+
+                  <li class="nav-item ">
+                    <a class="nav-link " href="/Registration.html">
+                      Regisitration
+                    </a>
+                  </li>
+                  
+                  <li class="nav-item ">
+                    <a class="nav-link " href="/login.html">
+                      Login
+                    </a>
+                  </li>
+
+                  <li class="nav-item ">
+                    <a class="nav-link " href="#contact">
+                      Contact
+                    </a>
+                  </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+  </section>
+     <!-- Registration -->
+     <section class="bg">
+        <div class="container p-0">
+            <div class="row">
+                <div class="">
+                    <div class="bg-white p-4 rounded" >
+                        <p class="text-center"><img src="https://www.strunkmedia.com/wp-content/uploads/2018/05/bigstock-Print-163213010.png" alt="aacharya logo" width="180px"  height="70px"></p>
+                        <h2 class="text-center text-primary mb-4"><b>User Registration</b></h2>
+                        <form>
+
+                            <div class="form-row mb-3">
+                                <div class="form-group col-md-2">
+                                    <label for="">Prefix</label>
+                                    <select name="" class="form-control">
+                                        <option selected> chose...</option>
+                                        <option>MRs.</option>
+                                    </select>                            
+                                </div>
+                                <div class="form-group col-md-5">
+                                    <label for="F-name">First Name</label>
+                                    <input type="text" class="form-control" id="F-name">
+                                </div>
+                                <div class="form-group col-md-5">
+                                    <label for="L-name">Last Name</label>
+                                    <input type="text" class="form-control" id="L-name">
+                                </div>
+                            </div>
+
+                            <div class="form-row mb-3">
+                                <div class="form-group col-md-6">
+                                    <label for="gender">Gender</label>
+                                    <div class="form-check pl-0">
+                                        <div class="custom-control custom-radio custom-control-inline">
+                                            <input type="radio" id="male" name="gender" class="custom-control-input">
+                                            <label class="custom-control-label" for="male">Male</label>
+                                        </div>
+                                        <div class="custom-control custom-radio custom-control-inline">
+                                            <input type="radio" id="female" name="gender" class="custom-control-input">
+                                            <label class="custom-control-label" for="female">Female</label>
+                                        </div>
+                                        <div class="custom-control custom-radio custom-control-inline">
+                                            <input type="radio" id="other" name="gender" class="custom-control-input">
+                                            <label class="custom-control-label" for="other">Other</label>
+                                        </div>                                        
+                                    </div>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="D.O.B">Date Of Birth</label>
+                                    <input type="date" name="D.O.B" class="form-control" id="D.O.B">
+                                </div>
+                            </div>
+
+                            <div class="form-row mb-3">
+                                <div class="form-group col-md-6">
+                                    <label for="InputEmail">Email Id</label>
+                                    <input type="email" class="form-control" id="InputEmail">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="InputPassword">Password</label>
+                                    <input type="password" class="form-control" id="InputPassword">
+                                </div>
+                            </div>
+
+                            <div class="form-row mb-3">
+                                <div class="form-group col-md-6">
+                                    <label for="ReferSelect" >Referred By</label>
+                                    <select name="ReferSelect" id="ReferSelect" class="form-control">
+                                        <option value="Friends" selected>Friends & Colleges</option>
+                                        <option value="Whatsapp">Whatsapp</option>
+                                        <option value="Facebool">Facebool</option>
+                                        <option value="Twiter">Twiter</option>
+                                        <option value="Instagram">Instagram</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="ContactNumber">Contact Number</label>
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <select>
+                                                <option >+91</option>
+                                                <option >+92</option>
+                                                <option >+93</option>
+                                                <option >+94</option>
+                                            </select>
+                                        </div>
+                                        <input type="tel" class="form-control" id="ContactNumber" pattern="[0-9]{3}-[0-9]{4}-[0-9]{3}" name="ContactNumber"  aria-describedby="inputGroupPrepend2" required>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="form-row mb-3">
+                                <div class="form-group">
+                                    <label for="InterestedArea">Interested Area</label><br>
+                                    <div class="form-check pl-0">
+                                        <div class=" form-check-inline col-md-5">
+                                            <input  type="checkbox" id="A & C Exams" value="option1" name="InterestedArea">
+                                            <label class="form-check-label pl-2" for="A & C Exams">Academics & Competitive Exams</label>
+                                        </div>
+
+                                        <div class=" form-check-inline col-md-4">
+                                            <input  type="checkbox" id="H , W & F" value="option2" name="InterestedArea">
+                                            <label class="form-check-label pl-2" for="H , W & F">Health, Wellness & Fitness</label>
+                                        </div>
+
+                                        <div class=" form-check-inline col-md-2">
+                                            <input  type="checkbox" id="Sports" value="option4"  name="InterestedArea">
+                                            <label class="form-check-label pl-2" for="Sports">Sports</label>
+                                        </div>
+
+                                        <div class=" form-check-inline col-md-3">
+                                            <input  type="checkbox" id="Music" value="option3"  name="InterestedArea">
+                                            <label class="form-check-label pl-2" for="Music">Music & Dance</label>
+                                        </div>
+
+                                        <div class=" form-check-inline col-md-3">
+                                            <input class="form-check-input" type="checkbox" id="Arts" value="option5"  name="InterestedArea">
+                                            <label class="form-check-label pl-1" for="Arts">Arts & Craft</label>
+                                        </div>
+
+                                        <div class=" form-check-inline col-md-4">
+                                            <input class="form-check-input" type="checkbox" id="Information" value="option6"  name="InterestedArea">
+                                            <label class="form-check-label pl-1" for="Information">Information Technology</label>
+                                        </div>
+
+                                        <div class=" form-check-inline col-md-4">
+                                            <input class="form-check-input" type="checkbox" id="Career" value="option7"  name="InterestedArea">
+                                            <label class="form-check-label pl-1" for="Career">Career Development</label>
+                                        </div>
+
+                                        <div class=" form-check-inline col-md-4">
+                                            <input class="form-check-input" type="checkbox" id="Linguistics" value="option8"  name="InterestedArea">
+                                            <label class="form-check-label pl-1" for="Linguistics">Linguistics</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="form-row mb-3">
+                                <div class="form-group col-md-12">
+                                    <label for="the-list">Add if not in the list</label>
+                                    <input type="text" id="the-list" name="the-list" placeholder="Add Specialization (Comma Seperated)" class="form-control">
+                                </div>
+                            </div>
+
+                            <div class="form-row mb-3">
+                                <div class="custom-control custom-checkbox custom-control-inline">
+                                    <input type="checkbox" id="the-check" name="the-check" class="custom-control-input">
+                                    <label class="custom-control-label" for="the-check">By clicking below to signup, you hereby acknowledge that you have read and agree to StarAcharya's Terms of Use and its Privacy Policy.</label>
+                                </div>
+
+                            </div>
+
+                            <button type="submit" class="btn btn-primary w-100  btn-reg font-weight-bold mb-3" >Register</button>
+
+                        </form>
+                        <div>
+                            <p class="text-center"> 
+                                <b><em class="text-dark-50">Already have an account?</em> <a href="#">Sign In</a></b>
+                            </p>
+                            <p class="text-center">Or Sign Up Using</p>
+                        </div>
+
+                        <div class="d-flex justify-content-center mt-3">
+                            <button class="bdr mr-2"><img src="images/google-2.png" alt="google logo" width="20px"></img> Using by Google</button>
+
+                            <button class="bdr"><img src="images/facebook.png" alt="facebook logo" width="20px"></img> Using by Facebook</button>                       
+                        </div> 
+                    </div>                    
+                </div>
+
+                
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="bg-dark">
+      <div class="container bg-dark">
+      <div class="row justify-content-evenly  pt-5 text-white" id="footer">
+        <div class="col-md-3 text-center">
+          <img class="bg-white p-3 rounded" src="https://www.strunkmedia.com/wp-content/uploads/2018/05/bigstock-Print-163213010.png" alt="logo" height="60px" width="150px" >
+          <p class="pt-5">A logo with text is also known as a wordmark logo or logotype. Wordmark logos are made up of text only, such as a company name, initials, or monograms. They are often stripped down, and can even be reduced to initials with 1-3 letters.</p>
+          <ul>
+            
+          </ul>
+        </div>
+        <div class="col-md-3 text-center" >
+          <h3><b>Important links</b></h3>
+          <hr>
+          <p>
+            <a href="#about">About Us</a><br><br>
+            <a href="/Registration.html">Regisitration</a><br><br>
+            <a href="/login.html">Login</a><br><br>
+            <a href="#text_logo">Text logos</a><br><br>
+            <a href="#contact">Contact</a><br>
+          </p>
+        </div>
+        <div class="col-md-3 text-center">
+          <h3><b>Contact Us</b></h3>
+          <hr>
+          <p>328, jamui, main road  <br>kalyanpur,<br>Maharastra, Pin:401107</p>
+          <p><a href="mailto:aman@gmail.com"><b>info@aman.com</b></a></p>
+          <p><a><b>8676867545</b></a></p>
+          <p><a><b>3454435553</b></a></p>
+        </div>
+        <div class="col-md-3 text-center">
+          <h3><b>Social Media</b></h3>
+          <hr>
+          <p>
+            <a href="https://www.facebook.com"><b>Facebook</b></a><br><br>
+            <a href="https://www.youtube.com"><b>You Tube</b></a><br><br>
+            <a href="https://www.instagram.com"><b>Instagram</b></a><br><br>
+            <a href="https://www.linkedin.com"><b>Linkedin</b></a><br>
+          </p>
+        </div>
+        
+      </div>
+    </div>
+    </footer>
+    
+</bod>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+</html>
